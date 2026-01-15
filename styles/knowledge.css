@@ -19,6 +19,9 @@
   background: rgba(70, 145, 101, 1);
   padding: 12px 16px;
   border: none;
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }
 
 main {
@@ -127,6 +130,19 @@ nav a {
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   margin-bottom: 32px;
+}
+
+#banner-btns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+#how-works-btn {
+  background: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 4px;
 }
 
 #notes h2 {
@@ -247,4 +263,36 @@ nav a {
   font-weight: 500;
   line-height: 20px;
   text-align: left;
+}
+
+#think-more {
+  max-width: 1600px;
+  border-radius: 12px;
+  background: rgba(247, 246, 242, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 80px 0;
+}
+
+#think-more h2 {
+  color: rgba(0, 25, 49, 1);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#think-more p {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+footer {
+  background: rgba(0, 25, 49, 1);
 }
